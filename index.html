@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CatPhotoApp</title>
+      <link rel="stylesheet" href="style.css">
+  </head> 
+  <body>
+    <main>
+      <div class="hero-section">
+        <h1>CatPhotoApp</h1>
+        <a href="signup.html">Get Started</a>
+      </div>
+
+      <section class="section-2">
+        <h2><i>Cat Photos</i></h2>
+        <!-- TODO: Add link to cat photos -->
+        <!-- <a href="https://freecatphotoapp.com"><img src="cat3.jpg"height=300  width=300 alt="A cute orange cat lying on its back."></a> -->
+
+        <div>
+          <a href="cat.jpg">
+            <img src="cat.jpg" width="300" height="250" alt="A cute orange cat lying on its back.">
+          </a>
+          <a href="cat3.jpg">
+            <img src="cat3.jpg" width="300" height="250" alt="A cute orange cat lying on its back.">
+          </a>
+          <a href="https://images.ctfassets.net/82d3r48zq721/1MbVHXFsrqJHGz5WlSrFQ0/2528fa2f6713553571c33db1f3bded4f/Cat-sniffing-dried-catnip_resized.jpg?w=800&q=50">
+            <img src="https://images.ctfassets.net/82d3r48zq721/1MbVHXFsrqJHGz5WlSrFQ0/2528fa2f6713553571c33db1f3bded4f/Cat-sniffing-dried-catnip_resized.jpg?w=800&q=50" width="300" height="250" alt="A cute orange cat lying on its back.">
+          </a>
+        </div>
+
+        
+         <p>Click here to view more <a target="_blank" href="signup.html"><i>Cats picture</i></a>.</p>
+      
+      </section>
+
+      <section class="section-3">
+        <h2>Cat Lists</h2>
+        <div class="cats-love">
+          <h3>Things cats love:</h3>
+          <ul>
+            <li>cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+          </ul>
+        </div>
+        <div class="figure-container">
+          <figure>
+            <img src="https://images.ctfassets.net/82d3r48zq721/1MbVHXFsrqJHGz5WlSrFQ0/2528fa2f6713553571c33db1f3bded4f/Cat-sniffing-dried-catnip_resized.jpg?w=800&q=50" height="250" width="300" alt="A cat nip.">
+            <figcaption>Cats <em>love</em> cat nip.</figcaption> 
+          </figure>
+          <figure>
+            <img src="pizza.jpg" alt="A slice of lasagna on a plate." height="250" width="300">
+            <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-4">
+        <div class="cats-hate">
+          <h3>Top 3 things cats hate:</h3>
+          <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+          </ol>
+        </div>
+        <div class="figure-container">
+          <figure>
+            <img src="cat.jpg" alt="Five cats looking around a field.">
+            <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+          </figure>
+        </div>
+      </section>
+
+      
+      <section class="section-5">
+        <div class="left-section">
+          <h2>Things you should know <a target="_blank" href="https://www.nationalgeographic.com/animals/mammals/facts/domestic-cat"> about Cats</a>.</h2>
+        </div>
+        <div class="right-section">
+          <h2>Cat Form</h2>
+          <form action="https://freecatphotoapp.com/submit-cat-photo">
+            <fieldset>
+              <legend>Is your cat an indoor or outdoor cat?</legend>
+              <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+              <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+            </fieldset>
+            <fieldset>
+              <legend>What's your cat's personality?</legend>
+              <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+              <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+              <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+            </fieldset>
+            
+            <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.google.org">Oyeyipo Abdulmalik.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
+
+
